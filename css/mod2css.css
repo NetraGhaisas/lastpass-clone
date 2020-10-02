@@ -1,0 +1,72 @@
+.lp-mod .container .inner-container{padding:60px
+0;text-align:center}.lp-mod
+.row{margin:auto;margin-bottom:15px;display:table;position:relative;width:100%}.lp-mod .row:last-child{margin-bottom:0px !important}.lp-mod .row-inner{display:table-cell;vertical-align:top}.lp-mod .row-lines{border-spacing:0 !important;margin-bottom:0;padding:15px
+20px}.lp-mod .row-lines:not(:last-child){border-bottom:1px solid #AEAEAE}.lp-mod .row-lines
+p{margin-bottom:5px}.lp-mod h1, .lp-mod
+h2{margin:auto;text-align:center}.lp-mod h2, .lp-mod
+p{font-family:'Gibson','Open Sans','Helvetica',Arial,sans-serif;-webkit-font-smoothing:antialiased}.lp-mod
+h1{font-family:'Gibson','Open Sans','Helvetica',Arial,sans-serif;-webkit-font-smoothing:antialiased;font-size:35px;margin:0
+0 15px;font-size:48px;margin-bottom: .6em;line-height:1em}.lp-mod
+h2{font-size:24px;line-height:28px;margin-bottom:0 0 40px}.lp-mod
+h3{color:#d32d27;font-family:'Gibson','Open Sans','Helvetica',Arial,sans-serif;line-height:normal;font-size:15px;margin:0
+0 2px;text-align:left}.lp-mod
+p{font-size:15px;line-height:22px;text-align:left}.lp-mod
+ul{-webkit-padding-start:18px}.lp-mod ul, .lp-mod
+li{text-align:left}.lp-mod
+a.link{text-decoration:underline}.lp-mod h2
+a.link{color:#000;line-height:35px}.lp-mod
+a.nbtn{color:#000;font-family:'Gibson','Open Sans','Helvetica',Arial,sans-serif;min-width:inherit;max-width:15%;font-weight:400;font-size:18px;border-radius:22px;padding:12px
+0;-webkit-font-smoothing:antialiased}.lp-mod.light-text, .lp-mod.light-text h2
+a.link{color:#FFF}.lp-mod.dark-text, .lp-mod.dark-text h2
+a.link{color:#3c4a55}.lp-mod.bg-color.compact .inner-container, .lp-mod.compact .inner-container{padding:50px
+0 30px}.lp-mod.bg-color .inner-container{padding:60px
+0}.lp-mod.bg-color
+h2{margin-bottom:0}.lp-mod .custom-html{margin:auto;margin-top:20px}.lp-mod .custom-html
+.row{border-spacing:20px}.lp-mod .custom-html .row:not(:first-child){margin-top:-20px}.lp-mod
+.center{text-align:center}.lp-mod .small-text{font-size:12px}input[type=text],input[type=password],textarea{-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none}.lp-mod .table-box .box-header{border:1px
+solid #565656;background-color:#565656;padding:15px
+20px}.lp-mod .table-box .box-header
+h3{color:#fff}.lp-mod .table-box .box-content{border:1px
+solid #AEAEAE}.lp-mod .table-box .box-content
+.row{border-spacing:30px 15px}.lp-mod .table-box .box-content .row-inner{width:50%;text-align:left}.lp-mod .table-box .box-content .row-inner:last-child
+h3{color:#000}.lp-mod .table-box .box-content .row-inner:last-child>div{width:360px;float:right}.lp-mod .table-box .box-content
+input{margin-right:7px}.lp-mod .table-box .box-content label:not(:last-child){margin:0
+10px 10px 0;display:inline-block}.lp-mod .shadow-box{-webkit-box-shadow:1px 1px 1px 0 rgba(0, 0, 0, 0.2);-moz-box-shadow:1px 1px 1px 0 rgba(0, 0, 0, 0.2);box-shadow:1px 1px 1px 0 rgba(0, 0, 0, 0.2)}.generate .lp-mod#details
+img{margin:10px
+auto 30px;display:block}.generate .lp-mod#details
+form{width:360px;float:right}.generate .generate-pw
+a{display:inline-block}.generate .generate-pw a, .generate .generate-pw
+p{margin-top:10px}.generate #pw-formula{padding:20px;border:1px
+solid #979797;background-color:#f6f6f6}.generate .generate-pw{width:620px;text-align:center;margin:auto;margin-bottom:20px}.generate .generate-pw #password, .strength-input
+#password{font-weight:bold;font-family:"open_sanssemibold","Helvetica Neue",Helvetica,sans-serif;height:56px;background-color:#fff;border:1px
+solid #96a0ad;display:table-cell;vertical-align:middle;font-size:26px;overflow:auto;width:100%;max-width:620px;text-align:center}.generate .generate-pw
+#meter{height:5px;border:1px
+solid #96a0ad;border-top:0;width:100%}.generate .generate-pw #meter-color{height:100%;background-color:#19ba20}.generate .generate-pw #meter-color.yellow{background-color:#FFEC20}.generate .generate-pw #meter-color.red{background-color:#d32d27}.generate
+#length{width:100%;margin-bottom:20px}#howsecure #details .inner-container>.row:not(last-child){margin-bottom:40px}#howsecure #strength .custom-html{margin-top:40px}input.large-input{width:620px;padding:10px
+20px;margin-bottom:10px}input.large-input::-webkit-input-placeholder{font-style:italic}input.large-input::-moz-placeholder{font-style:italic}input.large-input:-ms-input-placeholder{font-style:italic}input.large-inputinput:-moz-placeholder{font-style:italic}#howsecure
+#strength{-webkit-transition:background-color .5s, color .05s ease-out;-moz-transition:background-color .5s, color .05s ease-out;-o-transition:background-color .5s, color .05s ease-out;transition:background-color .5s, color .05s ease-out}.dropdown{position:relative}.dropdown>div{display:table;width:360px;border-spacing:0}.dropdown>div>*{display:table-cell}.dropdown
+input{width:100%;margin:0}.dropdown
+a{background-color:#fff;border:1px
+solid #cacaca;border-left:0;width:30px}ul.dropdown-menu{background-color:#fff;border:1px
+solid #cacaca;list-style:none;height:200px;width:360px;overflow:auto;position:absolute;margin:0;padding:0;display:none}ul.dropdown-menu
+li{width:100%}ul.dropdown-menu li
+a{display:block;width:100%;color:#000;padding:7px
+10px}ul.dropdown-menu li a:hover{background-color:#f6f6f6}@media (max-width: 1000px){.lp-mod .container .inner-container{width:100%}.lp-mod .row:not(.row-lines),.custom-html{padding:0
+20px}}@media (max-width: 970px){.generate .lp-mod#details .inner-container{padding:40px
+20px}.lp-mod .box-content
+.row{border-spacing:10px 15px}}@media (max-width: 900px){.lp-mod
+h2{width:100% !important}.lp-mod h1, .lp-mod
+h2{padding:0
+100px}}@media (max-width: 830px){.lp-mod
+h1{font-size:30px;margin-bottom:10px}.lp-mod
+h2{font-size:20px}.lp-mod h1, .lp-mod
+h2{padding:0
+50px}.lp-mod .container .inner-container,
+.lp-mod.bg-color .inner-container{padding:60px
+0}.generate .lp-mod#details
+form{width:100%;float:none}}@media (max-width:670px){.generate .generate-pw{width:100%}#howsecure input#my-password{width:100%}}@media (max-width:600px){.generate .lp-mod .shadow-box .row-inner:last-child{display:table-header-group}.generate .lp-mod .box-content
+.row{border-spacing:0px 15px}}@media (max-width: 550px){.lp-mod
+h1{margin-bottom:10px}.lp-mod h1, .lp-mod
+h2{padding:0
+30px}}@media (max-width: 400px){.generate .lp-mod#details
+img{width:100%}}
