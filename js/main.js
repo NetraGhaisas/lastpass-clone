@@ -21,7 +21,7 @@ function lpCreatePass(
   reqevery,
   pronounceable
 ) {
-  if (typeof length == "undefined") length = 8 + get_random(0, 1);
+  if (typeof length == "undefined") length = 8 + get_random(0,1);
   if (typeof upper == "undefined") upper = true;
   if (typeof lower == "undefined") lower = true;
   if (typeof digits == "undefined") digits = true;
@@ -38,10 +38,10 @@ function lpCreatePass(
   if (lower) minlower = 1;
   if (special) minspecial = 1;
 
-  if (pronounceable) {
-    if (upper) return GPW.pronounceablecaps(length);
-    else return GPW.pronounceable(length);
-  }
+  // if (pronounceable) {
+  //   if (upper) return GPW.pronounceablecaps(length);
+  //   else return GPW.pronounceable(length);
+  // }
 
   var positions = new Array();
   if (lower && minlower > 0) {
@@ -68,10 +68,9 @@ function lpCreatePass(
     positions[positions.length] = "A";
   }
   positions.sort(function () {
-    return get_random(0, 1) * 2 - 1;
+    return get_random(0,1) * 2 - 1;
   });
 
-  // Been burned a few times by this providing special characters...
   var chars = "";
   var lowerchars = "abcdefghjkmnpqrstuvwxyz";
   if (!ambig) {
