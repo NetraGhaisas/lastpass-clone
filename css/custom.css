@@ -14,6 +14,10 @@
   color: #F0AAB1;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 /* Make Header Image Responsive */
 .back-image {
   background-size: cover;
