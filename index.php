@@ -27,14 +27,14 @@
 <body>
   <!-- Start Navigation -->
   <nav class="navbar navbar-expand-sm navbar-dark bg-danger pl-5 fixed-top">
-    <a href="index.php" class="navbar-brand">LastPass...|</a>
+    <a href="#intro" class="navbar-brand">LastPass...|</a>
     <span class="navbar-text">#1 Password Manager and Vault App</span>
     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myMenu">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="myMenu">
       <ul class="navbar-nav pl-5 custom-nav">
-        <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#intro" class="nav-link">Home</a></li>
         <li class="nav-item"><a href="#registration" id="regBar" class="nav-link">Registration</a></li>
         <li class="nav-item"><a href="Requester/RequesterLogin.php" class="nav-link">Login</a></li>
       </ul>
@@ -42,7 +42,7 @@
   </nav> <!-- End Navigation -->
 
   <!-- Start Header Jumbotron-->
-  <header class="jumbotron back-image" style="background-image: url(https://cdn.mos.cms.futurecdn.net/i35qeyMYMffK6e7peArA4m-1200-80.jpg);">
+  <header class="jumbotron back-image" id="intro" style="background-image: url(https://cdn.mos.cms.futurecdn.net/i35qeyMYMffK6e7peArA4m-1200-80.jpg);">
     <div class="myclass mainHeading">
       <h1 class="text-danger font-weight-bold">Welcome to LastPass</h1>
       <p class="font-italic">Start managing passwords now...</p>
