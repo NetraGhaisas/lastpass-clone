@@ -33,28 +33,7 @@ function getVault() {
 // populate rows
 function populate() {
   var container = document.getElementById("vaultContainer");
-//   var title = "dummy",
-//     password = "dummy";
-  //   var parentDiv = document.createElement("div");
-  //   parentDiv.className = "col-lg-4 mb-4";
-  //   var childDiv = document.createElement("div");
-  //   childDiv.style = "border:1px solid #333; background-color:#f1f1f1; border-radius:5px; padding:16px;";
-  //   childDiv.align = "center";
-  //   var titleElement = document.createElement("h4");
-  //   titleElement.className = "text-info";
-  //   titleElement.innerText = title;
-  //   var passwordElement = document.createElement("h4");
-  //   passwordElement.className = "text-danger";
-  //   passwordElement.innerText = password;
-  //   childDiv.appendChild(titleElement);
-  //   childDiv.appendChild(passwordElement);
-  //   parentDiv.appendChild(childDiv);
-  //   var template =
-  //     '<div class="col-lg-4 mb-4"><div style="border:1px solid #333; background-color:#f1f1f1; border-radius:5px; padding:16px;" align="center"><h4 class="text-info">' +
-  //     title +
-  //     '</h4><h4 class="text-danger">' +
-  //     password +
-  //     "</h4></div></div>";
+
   var rowElement = document.createElement("div");
   rowElement.className = "row";
 
@@ -63,7 +42,7 @@ function populate() {
     parentDiv.className = "col-lg-4 mb-4";
     var childDiv = document.createElement("div");
     childDiv.style =
-      "border:1px solid #333; background-color:#f1f1f1; border-radius:5px; padding:16px;";
+      "border:2px dashed #DC3545; background-color:#ffffff; border-radius:5px; padding:16px;";
     childDiv.align = "center";
     var titleElement = document.createElement("h4");
     titleElement.className = "text-info";
