@@ -20,6 +20,7 @@
   <script src="js/sjcl.js"></script>
   <script src="js/vault.js"></script>
   <script src="js/login.js"></script>
+
   <title>LastPass</title>
 </head>
 
@@ -34,7 +35,7 @@
     <div class="collapse navbar-collapse" id="myMenu">
       <ul class="navbar-nav pl-5 custom-nav">
         <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
-        <li class="nav-item"><a href="#registration" class="nav-link">Registration</a></li>
+        <li class="nav-item"><a href="#registration" id="regBar" class="nav-link">Registration</a></li>
         <li class="nav-item"><a href="Requester/RequesterLogin.php" class="nav-link">Login</a></li>
       </ul>
     </div>
@@ -54,8 +55,8 @@
 
 
   <!-- Start Registration  -->
-  
-<?php include("UserRegistration.php");?>
+
+  <?php include("UserRegistration.php"); ?>
 
   <!-- End Registration  -->
 
