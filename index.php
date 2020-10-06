@@ -35,8 +35,9 @@
     <div class="collapse navbar-collapse" id="myMenu">
       <ul class="navbar-nav pl-5 custom-nav">
         <li class="nav-item"><a href="#intro" class="nav-link">Home</a></li>
-        <li class="nav-item"><a href="#registration" id="regBar" class="nav-link">Registration</a></li>
+        <li class="nav-item"><a href="#registration" id="regBar" class="nav-link">Sign Up</a></li>
         <li class="nav-item"><a href="Requester/RequesterLogin.php" class="nav-link">Login</a></li>
+        <li class="nav-item"><a href="passgen.php" class="nav-link">Generate Password</a></li>
       </ul>
     </div>
   </nav> <!-- End Navigation -->

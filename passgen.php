@@ -6,13 +6,18 @@
     <link rel="stylesheet" type="text/css" href="css/header_css_bundle.css" />
     <link rel="stylesheet" type="text/css" href="css/headercss.css" />
     <link rel="stylesheet" type="text/css" href="css/mod2css.css" />
-    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/custom.css" />
     <script src="js/jquery.min.js"></script>
     <script src="js/passgen.js"></script>
     <script src="js/functions.js"></script>
     <script src="js/sjcl.js"></script>
   </head>
   <body>
+     <!-- Top Navbar -->
+ <nav class="navbar navbar-dark fixed-top bg-danger flex-md-nowrap p-0 shadow">
+  <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="index.php">LastPass...|</a>
+ </nav>
     <section
       class="lp-mod compact bg-color dark-text"
       style="background-color: #f6f6f6"

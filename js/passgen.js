@@ -201,16 +201,6 @@ function dogenerate() {
   }
 }
 
-function encrypt(){
-  var pass = $("#password").val();
-  var salt = "1";
-  var count = 100100;
-
-  var pbkdf2_key_array = sjcl.misc.pbkdf2(pass,salt,count);
-  var pbkdf2_key = sjcl.codec.hex.fromBits(pbkdf2_key_array);
-  console.log(pbkdf2_key);
-  var passwords = {};
-}
 
 $(function () {
   $("#length").val(12);
@@ -232,7 +222,6 @@ $(function () {
 
   $("#generatepw").click(function () {
     dogenerate();
-    encrypt();
     return false;
   });
 
