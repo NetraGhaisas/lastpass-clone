@@ -10,6 +10,20 @@ function updategen(t) {
   }
 }
 
+function randomGenerate(passField,e){
+  e.preventDefault();
+  var pass = lpCreatePass();
+  passField.value = pass;
+  return false;
+}
+
+function get_random(min,max){
+  var range = max-min;
+  var randomWord = sjcl.random.randomWords(1);
+  var normalizedWord = Math.abs(randomWord/Math.pow(2,32));
+  return min + normalizedWord * range;
+}
+
 function lpCreatePass(
   length,
   upper,
@@ -21,7 +35,7 @@ function lpCreatePass(
   reqevery,
   pronounceable
 ) {
-  if (typeof length == "undefined") length = 8 + get_random(0,1);
+  if (typeof length == "undefined") length = 8 + get_random(0,10);
   if (typeof upper == "undefined") upper = true;
   if (typeof lower == "undefined") lower = true;
   if (typeof digits == "undefined") digits = true;
@@ -68,7 +82,7 @@ function lpCreatePass(
     positions[positions.length] = "A";
   }
   positions.sort(function () {
-    return get_random(0,1) * 2 - 1;
+    return get_random(0,1)*2 - 1;
   });
 
   var chars = "";
@@ -113,7 +127,7 @@ function lpCreatePass(
         usechars = chars;
         break;
     }
-    var i = get_random(0, usechars.length - 1);
+    var i = get_random(0,usechars.length - 1);
     pass += usechars.charAt(i);
   }
 
@@ -187,7 +201,7 @@ function dogenerate() {
 
     var maxwidth = document.getElementById("meter").offsetWidth;
 
-    UpdatePasswordMeterPercent("", "password", "meter-color", maxwidth);
+    // UpdatePasswordMeterPercent("", "password", "meter-color", maxwidth);
 
     var strength = document.getElementById("meter-color").offsetWidth;
 

@@ -18,11 +18,11 @@ if (!isset($_SESSION['is_login'])) {
         exit;
       } else {
         $msg = '<div class="alert alert-warning mt-2" role="alert"> Enter Valid Email and Password </div>';
-        echo "<script>sessionStorage.removeItem('key');sessionStorage.removeItem('email');alert('Session storage removed 1');</script>";
+        echo "<script>sessionStorage.removeItem('key');sessionStorage.removeItem('email');alert('Invalid login!');</script>";
       }
     } else {
       $msg = '<div class="alert alert-warning mt-2" role="alert"> Enter Valid Email and Password </div>';
-      echo "<script>sessionStorage.removeItem('key');sessionStorage.removeItem('email');alert('Session storage removed 2');</script>";
+      echo "<script>sessionStorage.removeItem('key');sessionStorage.removeItem('email');alert('Invalid login!');</script>";
     }
   }
 } else {

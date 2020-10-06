@@ -62,9 +62,9 @@ function beforeRegister(e) {
 
     // decrypt test
     
-    // var decryptedMessage = vaultDecrypt(encryptionKey,encryptedVault);
-    // console.log("decrypted message", decryptedMessage);
-    // console.log("parsed msg", JSON.parse(decryptedMessage));
+    var decryptedMessage = vaultDecrypt(encryptionKey,encryptedVault);
+    console.log("decrypted message", decryptedMessage);
+    console.log("parsed msg", JSON.parse(decryptedMessage));
 
     return true;
   } else {

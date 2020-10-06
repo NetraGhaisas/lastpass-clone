@@ -8,10 +8,6 @@
     <link rel="stylesheet" type="text/css" href="css/mod2css.css" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="css/custom.css" />
-    <script src="js/jquery.min.js"></script>
-    <script src="js/passgen.js"></script>
-    <script src="js/functions.js"></script>
-    <script src="js/sjcl.js"></script>
   </head>
   <body>
      <!-- Top Navbar -->
@@ -156,5 +152,8 @@
         </div>
       </div>
     </section>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/passgen.js"></script>
+    <script src="js/sjcl.js"></script>
   </body>
 </html>
