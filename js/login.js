@@ -54,7 +54,7 @@ function beforeRegister(e) {
 
     // encrypting empty vault at first
     var hiddenVault = document.getElementById("encryptedVault");
-    var vault = {coursera:"coursera"};
+    var vault = {};
     var encryptionKey = sessionStorage.getItem("key");
     var encryptedVault = vaultEncrypt(encryptionKey, vault);
     console.log(encryptedVault);
@@ -62,8 +62,8 @@ function beforeRegister(e) {
 
     // decrypt test
     
-    var decryptedMessage = vaultDecrypt(encryptionKey,encryptedVault);
-    console.log("decrypted message", decryptedMessage);
+    // var decryptedMessage = vaultDecrypt(encryptionKey,encryptedVault);
+    // console.log("decrypted message", decryptedMessage);
     // console.log("parsed msg", JSON.parse(decryptedMessage));
 
     return true;
