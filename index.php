@@ -38,7 +38,7 @@
         <li class="nav-item"><a href="#registration" id="regBar" class="nav-link">Sign Up</a></li>
         <li class="nav-item"><a href="Requester/RequesterLogin.php" class="nav-link">Login</a></li>
         <li class="nav-item"><a href="passgen.php" class="nav-link">Generate Password</a></li>
-        <li class="nav-item"><a href="pass_str.php" class="nav-link">Test your Password</a></li>
+        <li class="nav-item"><a href="pass_str.php" class="nav-link">Password Strength</a></li>
       </ul>
     </div>
   </nav> <!-- End Navigation -->
