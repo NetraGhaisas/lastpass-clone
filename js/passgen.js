@@ -78,7 +78,7 @@ function lpCreatePass(
     positions[positions.length] = "A";
   }
   positions.sort(function () {
-    return get_random(0,1)*2 - 1;
+    return get_random(0,10) - 1;
   });
 
   var chars = "";
@@ -126,7 +126,6 @@ function lpCreatePass(
     var i = get_random(0,usechars.length - 1);
     pass += usechars.charAt(i);
   }
-
   return pass;
 }
 
