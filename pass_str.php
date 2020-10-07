@@ -6,9 +6,6 @@
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 <link rel="stylesheet" type="text/css" href="css/custom.css" />
 <link type="text/css" href="css/pwdmeter.css" media="screen" rel="stylesheet" />
-<!--[if lt IE 7]>
-  <link type="text/css" href="css/ie.css" media="screen" rel="stylesheet" />
-<![endif]-->
 
 <script type="text/javascript" src="js/pwdmeter.js" language="javascript"></script>  
 </head>

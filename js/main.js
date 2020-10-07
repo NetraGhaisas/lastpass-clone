@@ -14,24 +14,18 @@ var checkEmptyFields = function () {
 function getVault() {
   var email = sessionStorage.getItem("email");
   var key = sessionStorage.getItem("key");
-  var oReq = new XMLHttpRequest(); // New request object
+  var oReq = new XMLHttpRequest(); // AJAX request
   oReq.onload = function () {
-    // This is where you handle what to do with the response.
-    // The actual data is found on this.responseText
     if (this.readyState == 4 && this.status == 200) {
       vault = vaultDecrypt(key, this.responseText);
       console.log(vault);
     }
   };
-  oReq.open("GET", "../Requester/getvault.php", false);
-  //                               ^ Don't block the rest of the execution.
-  //                                 Don't wait until the request finishes to
-  //                                 continue.
+  oReq.open("GET", "../Requester/getvault.php", false); //synchronous mode
   oReq.send();
-  // populate();
 }
 
-// populate rows
+// populate rows on profile dynamically
 function populate() {
   var container = document.getElementById("vaultContainer");
 

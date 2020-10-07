@@ -1,28 +1,3 @@
-/*
-**    Created by: Jeff Todnem (http://www.todnem.com/)
-**    Created on: 2007-08-14
-**    Last modified: 2010-05-03
-**
-**    License Information:
-**    -------------------------------------------------------------------------
-**    Copyright (C) 2007 Jeff Todnem
-**
-**    This program is free software; you can redistribute it and/or modify it
-**    under the terms of the GNU General Public License as published by the
-**    Free Software Foundation; either version 2 of the License, or (at your
-**    option) any later version.
-**    
-**    This program is distributed in the hope that it will be useful, but
-**    WITHOUT ANY WARRANTY; without even the implied warranty of
-**    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
-**    General Public License for more details.
-**    
-**    You should have received a copy of the GNU General Public License along
-**    with this program; if not, write to the Free Software Foundation, Inc.,
-**    59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
-**    
-*/
-
 function addLoadEvent(func) {
 	var oldonload = window.onload;
 	if (typeof window.onload != "function") {
@@ -63,8 +38,6 @@ function chkPass(pwd) {
 	var oScorebar = $("scorebar");
 	var oScore = $("score");
 	var oComplexity = $("complexity");
-	// Simultaneous variable declaration and value assignment aren't supported in IE apparently
-	// so I'm forced to assign the same value individually per var to support a crappy browser *sigh* 
 	var nScore=0, nLength=0, nAlphaUC=0, nAlphaLC=0, nNumber=0, nSymbol=0, nMidChar=0, nRequirements=0, nAlphasOnly=0, nNumbersOnly=0, nUnqChar=0, nRepChar=0, nRepInc=0, nConsecAlphaUC=0, nConsecAlphaLC=0, nConsecNumber=0, nConsecSymbol=0, nConsecCharType=0, nSeqAlpha=0, nSeqNumber=0, nSeqSymbol=0, nSeqChar=0, nReqChar=0, nMultConsecCharType=0;
 	var nMultRepChar=1, nMultConsecSymbol=1;
 	var nMultMidChar=2, nMultRequirements=2, nMultConsecAlphaUC=2, nMultConsecAlphaLC=2, nMultConsecNumber=2;
@@ -116,8 +89,8 @@ function chkPass(pwd) {
 				if (arrPwd[a] == arrPwd[b] && a != b) { /* repeat character exists */
 					bCharExists = true;
 					/* 
-					Calculate icrement deduction based on proximity to identical characters
-					Deduction is incremented each time a new match is discovered
+					Calculate increment deduction based on proximity to identical characters
+					Deduction incremented each time a new match is discovered
 					Deduction amount is based on total password length divided by the
 					difference of distance between currently selected match
 					*/

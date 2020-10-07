@@ -129,9 +129,6 @@
                           id="mindigits"
                         />Minimum Numeric Characters</label
                       ><br />
-                      <!-- <label
-                        ><input type="checkbox" id="ambig" />Avoid Ambiguous
-                        Characters</label> -->
                     </div>
                     <h3
                       id="error-msg"

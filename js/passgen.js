@@ -52,10 +52,6 @@ function lpCreatePass(
   if (lower) minlower = 1;
   if (special) minspecial = 1;
 
-  // if (pronounceable) {
-  //   if (upper) return GPW.pronounceablecaps(length);
-  //   else return GPW.pronounceable(length);
-  // }
 
   var positions = new Array();
   if (lower && minlower > 0) {

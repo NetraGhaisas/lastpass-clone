@@ -24,7 +24,7 @@ if ($_SESSION['is_login']) {
   <form class="mx-5" method="POST">
     <div class="container" style="width:700px;">
       <h3 align="center">Password Vault</h3><br />
-
+      <!-- boxes are generated dynamically -->
       <div class="container" id="vaultContainer">
       </div>
     </div>
