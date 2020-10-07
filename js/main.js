@@ -43,7 +43,7 @@ function populate() {
     parentDiv.className = "col-lg-4 mb-4";
     var childDiv = document.createElement("div");
     childDiv.style =
-      "border:2px dashed #DC3545; background-color:#ffffff; border-radius:5px; padding:46px; overflow:auto";
+      "border:2px dashed #DC3545; background-color:#ffffff; border-radius:5px; padding:26px; overflow:auto";
     childDiv.align = "center";
     var titleElement = document.createElement("h4");
     titleElement.className = "text-info";
