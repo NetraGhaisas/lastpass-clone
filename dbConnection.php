@@ -13,8 +13,8 @@ $remote_host = "remotemysql.com";
 $remote_port = 3306;
 
 // Create Connection
-$conn = new mysqli($remote_host, $remote_user, $remote_password, $remote_name,$remote_port);
-// $conn = new mysqli($db_host, $db_user, $db_password, $db_name,$db_port);
+// $conn = new mysqli($remote_host, $remote_user, $remote_password, $remote_name,$remote_port);
+$conn = new mysqli($db_host, $db_user, $db_password, $db_name,$db_port);
 
 // Check Connection
 if($conn->connect_error) {
