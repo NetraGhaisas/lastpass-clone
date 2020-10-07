@@ -10,9 +10,6 @@ var checkEmptyFields = function () {
 };
 
 function pbkdf2Encrypt(pass, rounds, length) {
-  // get salt of 32 bytes
-  // var saltBits = sjcl.random.randomWords(8);
-
   var pbkdf2KeyArray = sjcl.misc.pbkdf2(pass, "", rounds, length);
   return pbkdf2KeyArray;
 }
@@ -22,12 +19,8 @@ function clientEncryption(){
   var emailElement = document.getElementById("email");
     var passElement = document.getElementById("password");
     
-    // var hiddenSalt = document.getElementById("salt");
     var hiddenHashedPassword = document.getElementById("hashedPassword");
     var pass = passElement.value;
-    // var saltString = JSON.stringify(emailElement.value).substring(0,32);
-    // get salt of 32 bytes
-    // var saltBits = sjcl.random.randomWords(8);
     // pbkdf2 100100 rounds
     var length = 256;
 
@@ -62,9 +55,9 @@ function beforeRegister(e) {
 
     // decrypt test
     
-    var decryptedMessage = vaultDecrypt(encryptionKey,encryptedVault);
-    console.log("decrypted message", decryptedMessage);
-    console.log("parsed msg", JSON.parse(decryptedMessage));
+    // var decryptedMessage = vaultDecrypt(encryptionKey,encryptedVault);
+    // console.log("decrypted message", decryptedMessage);
+    // console.log("parsed msg", JSON.parse(decryptedMessage));
 
     return true;
   } else {

@@ -37,7 +37,7 @@
       <div class="container">
         <div class="inner-container">
           <div class="shadow-box table-box">
-            <div class="box-header"><h3>Details</h3></div>
+            <div class="box-header"><h3>Random Password Generator</h3></div>
             <div class="box-content">
               <div class="row">
                 <div class="row-inner">
@@ -129,9 +129,6 @@
                           id="mindigits"
                         />Minimum Numeric Characters</label
                       ><br />
-                      <!-- <label
-                        ><input type="checkbox" id="ambig" />Avoid Ambiguous
-                        Characters</label> -->
                     </div>
                     <h3
                       id="error-msg"

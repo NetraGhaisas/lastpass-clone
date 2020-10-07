@@ -10,9 +10,18 @@ function updategen(t) {
   }
 }
 
+function togglePassword() {
+  var x = document.getElementById("inputPassword");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+
 function randomGenerate(passField,e){
   e.preventDefault();
-  var pass = lpCreatePass();
+  var pass = lpCreatePass(undefined,true,true,true,true,1);
   passField.value = pass;
   return false;
 }
@@ -52,10 +61,6 @@ function lpCreatePass(
   if (lower) minlower = 1;
   if (special) minspecial = 1;
 
-  // if (pronounceable) {
-  //   if (upper) return GPW.pronounceablecaps(length);
-  //   else return GPW.pronounceable(length);
-  // }
 
   var positions = new Array();
   if (lower && minlower > 0) {
@@ -82,7 +87,7 @@ function lpCreatePass(
     positions[positions.length] = "A";
   }
   positions.sort(function () {
-    return get_random(0,1)*2 - 1;
+    return get_random(0,10) - 1;
   });
 
   var chars = "";
@@ -130,7 +135,6 @@ function lpCreatePass(
     var i = get_random(0,usechars.length - 1);
     pass += usechars.charAt(i);
   }
-
   return pass;
 }
 

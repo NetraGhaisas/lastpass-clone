@@ -22,8 +22,8 @@ if (isset($_REQUEST['submitrequest'])) {
   }
 }
 ?>
-<!-- <script type="text/javascript" src="../js/functions.js"></script> -->
 <script type="text/javascript" src="../js/passgen.js"></script>
+
 <div class="col-sm-9 col-md-10 mt-5">
   <form class="mx-5" action="" method="POST" onsubmit="updateVault(event)">
 
@@ -42,6 +42,12 @@ if (isset($_REQUEST['submitrequest'])) {
         <div class="form-row">
           <input type="password" class="form-control col-md-9" id="inputPassword" name="requesterpassword">
           <button class="btn btn-default input-grp-btn col-md-3" onclick="randomGenerate(document.getElementById('inputPassword'),event)">Generate</button>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" onclick="togglePassword()" value="" id="showPassword">
+          <label class="form-check-label" for="showPassword">
+            Show password
+          </label>
         </div>
       </div>
 
