@@ -10,9 +10,18 @@ function updategen(t) {
   }
 }
 
+function togglePassword() {
+  var x = document.getElementById("inputPassword");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+
 function randomGenerate(passField,e){
   e.preventDefault();
-  var pass = lpCreatePass();
+  var pass = lpCreatePass(undefined,true,true,true,true,1);
   passField.value = pass;
   return false;
 }

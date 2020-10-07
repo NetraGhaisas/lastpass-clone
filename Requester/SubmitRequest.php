@@ -43,6 +43,12 @@ if (isset($_REQUEST['submitrequest'])) {
           <input type="password" class="form-control col-md-9" id="inputPassword" name="requesterpassword">
           <button class="btn btn-default input-grp-btn col-md-3" onclick="randomGenerate(document.getElementById('inputPassword'),event)">Generate</button>
         </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" onclick="togglePassword()" value="" id="showPassword">
+          <label class="form-check-label" for="showPassword">
+            Show password
+          </label>
+        </div>
       </div>
 
     </div>
