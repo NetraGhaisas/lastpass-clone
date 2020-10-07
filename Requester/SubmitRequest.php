@@ -22,8 +22,8 @@ if (isset($_REQUEST['submitrequest'])) {
   }
 }
 ?>
-<!-- <script type="text/javascript" src="../js/functions.js"></script> -->
 <script type="text/javascript" src="../js/passgen.js"></script>
+
 <div class="col-sm-9 col-md-10 mt-5">
   <form class="mx-5" action="" method="POST" onsubmit="updateVault(event)">
 

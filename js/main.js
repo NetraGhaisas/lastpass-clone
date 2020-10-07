@@ -23,11 +23,12 @@ function getVault() {
       console.log(vault);
     }
   };
-  oReq.open("GET", "../Requester/getvault.php", true);
+  oReq.open("GET", "../Requester/getvault.php", false);
   //                               ^ Don't block the rest of the execution.
   //                                 Don't wait until the request finishes to
   //                                 continue.
   oReq.send();
+  // populate();
 }
 
 // populate rows
@@ -36,7 +37,7 @@ function populate() {
 
   var rowElement = document.createElement("div");
   rowElement.className = "row";
-
+  console.log(vault);
   for (let title in vault) {
     var parentDiv = document.createElement("div");
     parentDiv.className = "col-lg-4 mb-4";
